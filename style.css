@@ -191,6 +191,30 @@ ul{
 	.container-main{
 		padding: 5.5rem 5.3rem;
 	}
+	/*//////// menu nav //////*/
+	.menu-mobile,.icon-menu-close{
+		display: none;
+	}
+	.menu-nav.off{
+		position: relative;
+		display: block;
+		height: 20px;
+		padding: 0rem;
+	}
+	.list-nav{
+		display: flex;
+		flex-direction: row;
+		justify-content: end;
+		margin: 0rem;
+		column-gap: 2.3rem;
+	}
+	.item-list-nav{
+		font-size: 16px;
+		cursor: pointer;
+	}
+	.item-list-nav:hover{
+		color: hsl(5, 85%, 63%);
+	}
 }
 @media screen and (min-width: 1080px){
 	.sct-main{
@@ -198,6 +222,8 @@ ul{
 		grid-template-columns: 65.5% 31.5%;
 		column-gap: 2rem;
 	}
+
+	/*/////////////////////////////*/
 	#btn-intro{
 		margin-top: 2rem;
 	}
