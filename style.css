@@ -58,8 +58,15 @@ ul{
 	width: 40px;
 	height: 17px;
 }
+
 .menu-nav.off{
 	display: none;
+	margin-right: -18rem;
+}
+
+@keyframes slide{
+	from {margin-right:  -18rem}
+	to{margin-right: 0rem}
 }
 .menu-nav{
 	position: fixed;
@@ -69,10 +76,12 @@ ul{
 	padding: 1.5rem 1rem;
 	width: 67.5%;
 	height: 100vh;
+	margin-right: 0rem;
+	animation-name: slide;
+	animation-duration: 0.3s;
+	
 }
-.menu-nav::before{
-	background-color: #000;
-}
+
 .icon-menu-close{
 	width: 32px;
 	height: 31px;
