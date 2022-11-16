@@ -209,6 +209,7 @@ ul{
 		display: block;
 		height: 20px;
 		padding: 0rem;
+		margin-right: 0rem;
 	}
 	.list-nav{
 		display: flex;
